@@ -1,0 +1,185 @@
+*{
+    padding: 0px;  margin: 0px;  box-sizing: border-box;  font-family: Tahoma;
+}
+a:hover{
+    cursor: pointer; color: #dc5b21;
+}
+/*a{*/
+    /*text-decoration: none ; color: white;*/
+/*}*/
+#container{
+    margin-left: 8.33%;  width: 83.3%;  max-height: 1800px;
+    min-height: 1100px; background-color: #e4dbbf;
+}
+/*----------------------------*/
+#header{
+    width: 100%;  height: 80px;
+}
+#logo{
+    width: 78px;  height: 78px;  margin: 1px 0px 1px 10px;  float: left;
+}
+#header span{
+    font-size: 30px;  margin: 20px 0px 20px 5px;  float: left; color: #dc5b21;
+}
+#search{
+    width: 50px;  height: 30px;  margin: 25px 5px 25px 0px;
+    border: none;  float: right;  background-color: white;
+}
+#header input{
+    width: 250px;  height: 30px;  margin: 25px 0px 25px;
+    border: none;  float: right;  font-family: Tahoma;
+}
+/*--------------------------*/
+#header_link{
+    width: 100%;  height: 50px;  background-color: #383127; color: white;
+}
+#head_menu{
+    list-style-type: none;  position: relative;  margin: 1px 0px 1px 5px;
+}
+#head_menu li{
+    position: relative;  display: inline-block;  padding-top: 5px;  font-size: 18px;
+}
+#head_menu li a{
+    width: 120px;  height: 48px;  display: inline-block;
+    font-family: Tahoma;  padding: 8px 1px;  text-align: center;
+}
+#head_menu li a:hover{
+    background-color: #70ab8f;  color: white;
+}
+#head_menu li:hover .sub_menu{
+    display: inline-block;
+}
+#head_menu li .sub_menu{
+    list-style-type: none;  display: none;
+}
+.sub_menu{
+    background-color: gray;
+}
+.sub_menu li{
+    position: absolute;  display: inline-block;
+}
+.sub_menu li a{
+    width: 120px;  height: 48px;  font-family: Tahoma;  padding: 8px 1px;  text-align: center;
+}
+.sub_menu li a:hover{
+    background-color: green;  color: white;
+}
+#TheLoai{
+    width: 100%; height: 50px; border: 1px solid white; padding-top: 15px;
+}
+#TheLoai a{
+    padding: 10px 2px 2px 2px;
+}
+#left{
+    width: 75%; height: 960px;  float: left;
+}
+#left_top{
+    height: 5px;
+}
+#fast{
+    margin-bottom: 5px;
+}
+#fast span{
+    /*margin-right: 20%; float: left;*/
+}
+#fast input, #fast button{
+    height: 20px; float: right; width: 30px; border: none;
+}
+#fast input{
+    margin-right: 1px;
+}
+#fast button{
+    margin-right: 30%;
+}
+.choose{
+    width: 30px; height: 20px; display: inline-block;
+}
+#btnFirst{
+    margin-left: 30%;
+}
+/*------------------*/
+#content{
+    width: 100%;  height: 780px;  float: left;
+}
+#cont{
+    width: 100%;  height: 50px;
+}
+#cont select, #cont button, #cont span{
+    width: 15%;  height: 30px;  margin: 5px 40px 3px 50px;
+}
+/*#content .link{*/
+    /*display: inline-block;  width: 32.3%;  height: 30px;  background-color: #383127; color: white;*/
+    /*margin-left: 5px;  padding-top: 3px;  text-decoration: none;  text-align: center;*/
+/*}*/
+/*#content .link:hover{*/
+    /*background-color: green;*/
+/*}*/
+/*#left a:hover{*/
+/*background-color: #70ab8f;  color: black;*/
+/*}*/
+#fast{
+    width: 100%; height: 30px; padding: 5px 30%;
+}
+.contend{
+    width: 100%;  height: 692px;  margin: 5px 0px 5px 0px;
+}
+.contend_main{
+    width: 50%;  height: 135px;  float: left;  padding-left: 5px;
+    margin-top: 5px;
+    border-top: 1px dotted white;  border-bottom: 1px dotted white; border-left: 1px dotted white;
+}
+.contend_left{
+    width: 25%;  height: 100%;  float: left;
+}
+.contend_left img{
+    width: 100%;  height: 120px;  padding: 2px;
+}
+.contend_right{
+    width: 75%;  height: 100%;  float: left;  padding: 5px 2px 2px 2px;
+
+}
+.contend .contend_right p{
+    width: 100%;  height: 30px;  padding: 2px;
+}
+.contend_right p a{
+    color: #dc5b21;
+}
+.contend_right p a:hover{
+    font-weight: 600;
+}
+#right1{
+    width: 25%;  height: 390px;  border-left: 2px solid white;  float: left;
+}
+.right1_top{
+    width: 100%;  height: 40px;
+    text-align: center;  font-weight: 600;  font-size: 21px;  padding: 2px;
+}
+.right1_top u{
+    color: #dc5b21;
+}
+.right1_bottom{
+    width: 100%;  height: 350px; padding-left: 40px;
+}
+.right1_bottom li{
+    text-decoration: none;  font-size: 14px;  width: 100%;  height: 30px;
+    padding: 2px 2px 2px 40px;
+}
+.right1_bottom li a{
+    text-decoration: none;  font-weight: 600; color: #70ab8f;
+}
+.right1_bottom li a:hover{
+    color: orangered;
+}
+#moTa{
+    width: 25%;  height: 160px;  border-left: 2px solid white;  float: left; border-bottom: 2px solid white;
+}
+#moTa p{
+    padding: 15%; color: white; font-weight: 600;
+}
+#right2{
+    width: 25%;  height: 390px;  border-left: 2px solid white;  float: left; border-top: 2px solid white;
+}
+#footer{
+    clear: both;  width: 100%;  height: 80px;  background-color: #383127  ;
+    text-align: center;  padding-top: 15px; color: white;
+}

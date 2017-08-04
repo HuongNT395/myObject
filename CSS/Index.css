@@ -1,0 +1,215 @@
+*{
+    padding: 0px;  margin: 0px;  box-sizing: border-box;  font-family: Tahoma;
+}
+a:hover{
+    cursor: pointer; color: #dc5b21;
+}
+#container{
+    margin-left: 8.33%;  width: 83.3%;  max-height: 1800px;
+    min-height: 1200px;  border: 1px solid black; background-color: #e4dbbf;
+}
+/*----------------------------*/
+#header{
+    width: 100%;  height: 80px;
+}
+#logo{
+    width: 78px;  height: 78px;  margin: 1px 0px 1px 10px;  float: left;
+}
+#header span{
+    font-size: 30px;  margin: 20px 0px 20px 5px;  float: left; color: #dc5b21;
+}
+#search{
+    width: 50px;  height: 30px;  margin: 25px 5px 25px 0px;
+    border: none;  float: right;  background-color: white;
+}
+#header input{
+    width: 250px;  height: 30px;  margin: 25px 0px 25px;
+    border: none;  float: right;  font-family: Tahoma;
+}
+/*--------------------------*/
+#header_link{
+    width: 100%;  height: 50px;  background-color: #383127; color: white;
+}
+#head_menu{
+    list-style-type: none;  position: relative;  margin: 1px 0px 1px 5px;
+}
+#head_menu li{
+    position: relative;  display: inline-block;  padding-top: 5px;  font-size: 18px;
+}
+#head_menu li a{
+    width: 120px;  height: 48px;  display: inline-block;
+    font-family: Tahoma;  padding: 8px 1px;  text-align: center;
+}
+#head_menu li a:hover{
+    background-color: #70ab8f;  color: white;
+}
+#head_menu li:hover .sub_menu{
+    display: inline-block;
+}
+#head_menu li .sub_menu{
+    list-style-type: none;  display: none;
+}
+.sub_menu{
+    background-color: gray;
+}
+.sub_menu li{
+    position: absolute;  display: inline-block;
+}
+.sub_menu li a{
+    width: 120px;  height: 48px;  font-family: Tahoma;  padding: 8px 1px;  text-align: center; text-decoration: none; color: white;
+}
+.sub_menu li a:hover{
+    background-color: green;  color: white;
+}
+/*-----------------------------*/
+#menu_width{
+    width: 12%;  height: 500px;  float: left;  background-color: gainsboro;
+}
+#menu_width p{
+    width: 100%;  height: 30px;  padding: 5px 0px 5px 10px;
+    font-size: 20px;  background-color: cadetblue;
+}
+#menu_width ul{
+    list-style-type: none;
+}
+#menu_width ul li{
+    display: block;
+}
+#menu_width ul li a{
+    width: 100%;  height: 28px;  padding: 2px 5px 2px 20px;
+    display: block;  background-color: gainsboro;  font-size: 18px;
+}
+#menu_width ul li a:hover{
+    background-color: green;  color: white;
+}
+/*-------------------------------*/
+#dis_novel{
+    width: 100%;  height: 630px;  float: left; padding-bottom: 5px;
+}
+#novel_top{
+    width: 100%; height: 50px;
+}
+#novel_top u{
+    color: #dc5b21; float: left;padding: 10px; font-size: 18px; font-weight: 500;
+}
+#novel_top select{
+    background-color: #e4dbbf; color: #dc5b21; width: 140px; float: right; padding: 10px;
+    border: none; font-size: 16px; font-weight: 500;
+}
+#novel_left,#novel_right{
+    width: 2%;  height: 100%;  float: left;
+}
+#novel_left button{padding-left: 5px;}
+#novel_right button{padding-right: 5px;}
+.imgg{
+    border: none;  background-color: #e4dbbf;  margin-top: 100%;
+}
+.go{
+    width: 100%;  height: 100%;
+}
+/*----------------------------------*/
+#hrr{
+    width: 100%;  height: 3px;  clear: both; background-color: white;
+}
+/*-----------------------------------*/
+#novel_main{
+    width: 96%;  height: 100%;  float: left;  text-align: center;
+}
+.picture{
+    width: 20%;  height: 45%;  float: left;
+}
+.picture img{
+    margin: 0px 3px;  width: 100%;  height: 93%;  padding: 15px 35px 10px 35px;
+}
+.picture a{
+    text-decoration: none; color: #70ab8f;
+}
+.picture a:hover{
+    font-weight: 600;
+}
+/*----------------------------------*/
+#left{
+    width: 75%;  height: 780px;  float: left;
+}
+#left_top{
+    width: 100%;  height: 50px;
+}
+#left_top select, #left_top button, #left_top span{
+    width: 15%;  height: 30px;  margin: 5px 40px 3px 50px;
+}
+#left .link{
+    display: inline-block;  width: 32.3%;  height: 30px;  background-color: #383127; color: white;
+    margin-left: 5px;  padding-top: 3px;  text-decoration: none;  text-align: center;
+}
+#left .link:hover{
+    background-color: green;
+}
+/*#left a:hover{*/
+    /*background-color: #70ab8f;  color: black;*/
+/*}*/
+.contend{
+    width: 100%;  height: 692px;  margin: 5px 0px 5px 0px;
+}
+.contend_main{
+    width: 50%;  height: 135px;  float: left;  padding-left: 5px;
+    border-top: 1px dotted white;  border-bottom: 1px dotted white; border-left: 1px dotted white;
+}
+.contend_left{
+    width: 25%;  height: 100%;  float: left;
+}
+.contend_left img{
+    width: 100%;  height: 120px;  padding: 2px;
+}
+.contend_right{
+    width: 75%;  height: 100%;  float: left;  padding: 5px 2px 2px 2px;
+
+}
+.contend .contend_right p{
+    width: 100%;  height: 30px;  padding: 2px;
+}
+.contend_right p a{
+    color: #dc5b21;
+}
+.contend_right p a:hover{
+    font-weight: 600;
+}
+/*--------------------------------------*/
+#right1{
+    width: 25%;  height: 390px;  border-left: 2px solid white;  float: left;
+}
+.right1_top{
+    width: 100%;  height: 40px;
+    text-align: center;  font-weight: 600;  font-size: 21px;  padding: 2px;
+}
+.right1_top u{
+    color: #dc5b21;
+}
+.right1_bottom{
+    width: 100%;  height: 350px; padding-left: 40px;
+}
+.right1_bottom li{
+    text-decoration: none;  font-size: 14px;  width: 100%;  height: 30px;
+    padding: 2px 2px 2px 40px;
+}
+.right1_bottom li a{
+    text-decoration: none;  font-weight: 600; color: #70ab8f;
+}
+.right1_bottom li a:hover{
+    color: orangered;
+}
+/*----------------------------------------*/
+#right2{
+    width: 25%;  height: 390px;  border-left: 2px solid white;  float: left; border-top: 2px solid white;
+}
+/*--------------------------------------------*/
+#footer{
+    clear: both;  width: 100%;  height: 50px;  background-color: #383127  ;
+    text-align: center;  padding-top: 15px; color: white;
+}
+/*---------------------------------*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
